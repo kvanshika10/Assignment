@@ -1,0 +1,21 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 3rem 3rem;
+
+
+}
+
+
+
+.heading{
+    margin:2rem 2rem ;
+    
+}
+
+.img{
+    border-radius: 25px;
+
+}

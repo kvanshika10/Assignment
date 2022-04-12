@@ -1,0 +1,9 @@
+.search{
+    margin-left:45rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp{
+    margin-right: 10px;;
+}
