@@ -24,21 +24,24 @@ function UploadAndDisplayImage(props) {
 
   return (
     <div className={classes.display}>
+     <button className={`btn-close ${classes.cross}`} onClick={props.onClose}>
+        
+        </button>
       <h3 className={classes.h3}>Upload and Display Image</h3>
       {selectedImage && (
         <div>
           <img
             alt="not found"
-            width={"250px"}
-            height={"200px"}
+            width= {"20%"}
+            height={"20%"}
             src={URL.createObjectURL(selectedImage)}
           />
           <br />
-          <button className={classes.button} onClick={handleChange}>
+          <button className={`btn btn-dark ${classes.button}`} onClick={handleChange}>
             Upload
           </button>
           <button
-            className={classes.button}
+            className={`btn btn-dark ${classes.button}`}
             onClick={() => setSelectedImage(null)}
           >
             Remove
@@ -56,9 +59,7 @@ function UploadAndDisplayImage(props) {
           }}
         />
       )}
-      <button className={classes.button} onClick={props.onClose}>
-        Cancel
-      </button>
+     
     </div>
   );
 }

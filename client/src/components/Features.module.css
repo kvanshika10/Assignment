@@ -1,16 +1,46 @@
 .featurebx{
     padding: 5%;
+   
+}
+
+.feature{
+    background-color:#abbfd2;
+    padding: 7% 15%;
+    margin-top:6rem;
     
 }
 
 
 
+
 .icons{
     padding: 5%;
-
-    color:bisqueS;
+    color:white;
+    background-color: rgb(36, 4, 4);
+     border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 1rem;
+      margin-left: 1.5rem;
 
+}
+
+
+.h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+    
+}
+
+.title{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+
+.p{
+    color:#383834;
+    
 }
