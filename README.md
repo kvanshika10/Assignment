@@ -1,5 +1,5 @@
-# Assignment
-# Assignment-Project
+# Tamarind
+
 
 How to run it?
 1. Clone the git repository
