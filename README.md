@@ -18,4 +18,4 @@ How to run it?
  3. Choose a picture and click on upload picture.
  4.  Wohoo! Your pictures are uploaded in the pictures section.
  
- ![image1](https://drive.google.com/file/d/13_4YnaIuiTMP_ChP9Ym1fgzNzKOs4Ep1/view?usp=sharing)
+ 
